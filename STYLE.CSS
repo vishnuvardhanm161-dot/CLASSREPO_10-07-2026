@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(1, 6, 7);
+}
+
+p {
+    color: black;
+    font-size: 18px;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+}
+
+li {
+    color: darkgreen;
+}
