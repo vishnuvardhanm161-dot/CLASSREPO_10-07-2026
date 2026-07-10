@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Destination Card</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        .card{
+            width:300px;
+            margin:50px auto;
+            padding:15px;
+            background:white;
+            border:2px solid gray;
+            border-radius:15px;
+            text-align:center;
+            position:relative;
+        }
+
+        .card::before{
+            content:"Best Place";
+            background:orange;
+            color:white;
+            padding:5px 10px;
+            border-radius:10px;
+            position:absolute;
+            top:10px;
+            left:10px;
+            font-size:12px;
+        }
+
+        .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        h2{
+            color:darkblue;
+        }
+
+        p{
+            font-size:15px;
+            color:#444;
+        }
+
+        button{
+            padding:10px 20px;
+            border:none;
+            background:blue;
+            color:white;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        .card:hover{
+            transform:scale(1.05);
+            box-shadow:0px 0px 10px gray;
+        }
+
+        button:hover{
+            background:green;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach">
+
+        <h2>Goa</h2>
+
+        <p>
+            Goa is a beautiful tourist place in India. It is famous for
+            beaches, nightlife and delicious seafood.
+        </p>
+
+        <button>Visit</button>
+
+    </div>
+
+</body>
+</html>
